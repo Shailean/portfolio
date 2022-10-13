@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detangle Your Money</title>
+</head>
+
+<!-- INSERT "BACK TO PORTFOLIO" LINK -->
+
+<body>
+    <header id="header"> <!--User Story #1-->
+        <img src="Tangle (orange logo).jpeg" alt="Detangle Your Money company logo" id="header-img"> <!--User Story #2-->
+        <nav id="nav-bar"> <!--User Story #3-->
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <!-- User Story #4 & 5:  ADD "id" names equal to these href values so the link takes the user to the relevant section of the page-->
+        </nav>
+    </header>
+    <br><br>
+    <h1 id="title">Detangle Your Money</h1>
+    <p id="about">
+        Detangle Your Money specializes in addressing the unique financial circumstances that are faced by persons living on a low-middle income, persons of color, and immigrants. We serve persons who are preparing for major financial milestones like, college planning and financial aid, navigating student loans, negotiating salary, preparing for homeownership, and saving for retirement and emergencies. 
+        <br><br>
+        We use personal finance workshops and individual financial counseling to empower people to take control of their financial lives. We provide personal guidance in selecting the right financial products that will enable persons to manage their credit and debt, create a budget, and build assets. Detangle Your Money helps individuals become confident consumers who compare financial products, maintain low debt, take advantage of savings opportunities, and outline plans to reach their financial goals.  
+        <br><br>
+    <iframe width="250" height="250" src="https://www.youtube.com/watch?v=S6YHs-VnOxo" id="video">
+    </iframe> <!--User Story #6-->
+    </p>
+    <br>
+    <div id="container"> <!--User Story #15-->
+        <div id="services">
+            <h2>Services</h2>
+            <p>We offer group workshops and private financial coaching appointments to discuss an array of financial concerns including:</p>
+            <ul>
+                <li>Budgeting</li>
+                <li>Credit improvement</li>
+                <li>Identifying financial goals</li>
+                <li>Retirement savings</li>
+                <li>Homeownership</li>
+            </ul>
+        </div>
+        
+        <div id="contact">
+            <h2>Contact Us</h2> 
+            <a href="#" alt="Company's email address" id="email-contact">shailean@detangleyourmoney.com</a>
+        </div>
+    </div>
+    <br>
+    <form action="https://www.freecodecamp.com/email-submit" id="form"> <!--User Story #7 & 12:-->
+        <label for="email" id="email-label">Subscribe to our newsletter:</label> 
+        <input type="email" id="email" name="email" placeholder="name@email.com"> <!--User Story #8,9 & 10-->
+        <input type="submit" id="submit" value="Submit"> <!--User Story #11-->
+    </form>
+    <br>
+</body>
+</html>
+
+<style>
+    #nav-bar {  /* User story #13 */
+        position: absolute;
+        right: 10px;
+        top: 0;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+    @media (max-height: 500px) {  /* User story #14 */
+        p {
+            font-size: 12px;
+        }
+    }
+    h1 {
+        padding-left: 10px;
+        font-family: sans-serif;
+        font-weight: 300;
+    }
+    h2 {
+        font-weight: 300;
+    }
+    #about {
+        padding-left: 10px;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+    #services {
+        padding-left: 10px;
+        background-color: #FBCA71;
+        flex-basis: 20em;
+    }
+    #contact {
+        padding-left: 10px;
+        flex-basis: 20em;
+        background-color: lightgrey;
+    }
+    #form {
+        padding-left: 10px;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+    #submit {
+        font-family: sans-serif;
+        background-color: #FBCA71;
+        border-radius: 3px;
+        border-color: lightgray;
+    }
+    #container { /* User Story #15 */
+        display: flex;
+        padding: 10px;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+</style>

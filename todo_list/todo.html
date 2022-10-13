@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+
+    <!--Bootstrap stylesheet-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!--CSS stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Oswald fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<!-- INSERT "BACK TO PORTFOLIO" LINK -->
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!--Task List heading-->
+            <div class="col-9"> 
+                <h1 class="bg-info border border-info text-white">Task List</h1>   
+            </div> 
+
+            <!--New Task heading-->
+            <div class="col-3">
+                <h1 class="bg-white border border-info text-info">New Task</h1>
+                </div>
+            </div> <!--first row closing div-->
+    
+        <br>
+        <div class="row status">
+            <!--Status headings-->
+            <div class="col-3">
+                <h2 class="not-started border border-info text-info">Not Started</h2>
+                    <div class="card" id="tasks-not-started">
+                        <div class="card-body">
+                        <h5 class="card-title">Review pull requests</h5>
+                        <p class="card-text">Group meeting on Jul 17 at 4:00pm EST to approve and merge code</p>
+                        <p>ASSIGNED TO: All <br> DUE DATE: Jul 17, 2022</p>
+                        <span class="badge badge-danger">Not Started</span>
+                        </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Task 4: Task Form Inputs Validation</li>
+                                <li class="list-group-item">Task 5: Adding Tasks</li>
+                                <li class="list-group-item">Task 6: Display The Tasks</li>
+                                <li class="list-group-item">Task 7: Update A Task</li>
+                                <li class="list-group-item">Task 8: Persisting Tasks to LocalStorage</li>
+                                <li class="list-group-item">Task 9: Deleting Tasks</li>
+                            </ul>
+                    </div>
+            </div>
+            
+            <div class="col-3">
+                <h2 class="in-progress border border-info text-info">In Progress</h2>
+                <div class="card" id="tasks-in-progress">
+                    <div class="card-body">
+                    <h5 class="card-title">Write HTML</h5>
+                    <p class="card-text">Implement the basic HTML structure of your Wireframes design</p>
+                    <p>ASSIGNED TO: David <br> DUE DATE: Jul 14, 2022</p>
+                    <span class="badge badge-in-progress">In Progress</span>
+                    </div>
+                </div>
+                <br>
+                <div class="card" id="tasks-in-progress">
+                    <div class="card-body">
+                    <h5 class="card-title">Write CSS & Bootstrap</h5>
+                    <p class="card-text">Implement the card layout bootstrap component that contains the task information</p>
+                    <p>ASSIGNED TO: Shailean <br> DUE DATE: Jul 17, 2022</p>
+                    <span class="badge badge-in-progress">In Progress</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <h2 class="completed border border-info text-info">Completed</h2>
+                <div class="card" id="tasks-completed">
+                    <div class="card-body">
+                    <h5 class="card-title">Create Repository</h5>
+                    <p class="card-text"> Create project repo for Group 8</p>
+                    <p>ASSIGNED TO: Angelica <br> DUE DATE: Jul 14, 2022</p>
+                    <span class="badge badge-completed">Completed</span>
+                    <span class="check">&#10003;</span>
+                    <div class="circle"></div>
+                    </div>
+                </div>
+                <br>
+                <div class="card" id="tasks-completed">
+                    <div class="card-body">
+                    <h5 class="card-title">Create Wireframe</h5>
+                    <p class="card-text">Create the Task planner app wireframes to understand how it will work and look</p>
+                    <p>ASSIGNED TO: Shailean <br> DUE DATE: Jul 14, 2022</p>
+                    <span class="badge badge-completed">Completed</span>
+                    <span class="check">&#10003;</span>
+                    <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--New Task form-->
+            <div class="col-3 form">
+                <form id="newTaskForm" action="" onsubmit="return validFormFieldInput()">
+                  
+                    <label for="task-name">Task Name:</label><br>
+                    <input type="text" name="task-name" id="newTaskNameInput"><br><br>
+            
+                    <label for="description">Description:</label><br>
+                    <input type="text" name="description" id="newTaskDescriptionInput"><br><br>
+
+                    <label for="status">Status:</label><br>
+                    <select type="text" name="status" id="status">
+                        <option value="not-started">Not Started</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="completed">Completed</option>
+                    </select><br><br>
+            
+                    <label for="due">Due Date:</label><br>
+                    <input type="date" name="due" id="newTaskDueDateInput"><br><br>
+
+                    <label for="assigned">Assigned To:</label><br>
+                    <select type="text" name="assigned" id="newTaskAssignedToInput">
+                        <option value=""></option>
+                        <option value="all">All</option>
+                        <option value="angelica">Angelica</option>
+                        <option value="david">David</option>
+                        <option value="shailean">Shailean</option>
+                        <option value="shrikant">Shrikant</option>
+                        <option value="talitha">Talitha</option>
+                        <option value="teresa">Teresa</option>
+                    </select><br><br>
+
+                    <!--button-->
+                    <button type="submit" value="Add" class="btn">Add</button>
+                </form>
+            </div> 
+        </div> <!--second row closing div-->
+    </div> <!--container-fluid closing div-->
+    <br>
+    <footer>
+        <p>Group 8</p>
+    </footer>
+
+    <!--JavaScript File-->
+    <script src="js\taskManager.js"></script>
+    <script src="js\index.js"></script>
+</body>
+
+</html>

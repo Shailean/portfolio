@@ -1,0 +1,133 @@
+. {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 800; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.status {
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 200;
+    text-align: center;
+}
+
+.not-started {
+    background-color: #f4ccccff;
+    border-radius: 5px;
+    padding-bottom: 7px;
+}
+
+.in-progress {
+    background-color: #fff2ccff;
+    border-radius: 5px;
+    padding-bottom: 7px;
+}
+
+.completed {
+    background-color: #d9ead3ff;
+    border-radius: 5px;
+    padding-bottom: 7px;
+}
+
+.form {
+    text-align: justify;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 400;
+    font-size: large;
+}
+
+input {
+    width: 100%;
+    background-color: #eeeeeeff;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+}
+
+#due {
+    color: grey;
+}
+
+#assigned {
+    color: grey;
+    width: 100%;
+    background-color: #eeeeeeff;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #0097a7ff;
+    color: white;
+    font-size: larger;
+}
+
+#tasks-not-started {
+    text-align: left;
+    border-color: #e06666;
+}
+
+#tasks-in-progress {
+    text-align: left;
+    border-color: #f1c232;
+}
+
+#tasks-completed {
+    text-align: left;
+    border-color: #93c47d;
+}
+
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list-group-item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.badge-in-progress {
+    background-color: #ffd966;
+}
+
+.badge-completed {
+    background-color: #b6d7a8;
+}
+
+.check {
+    content: '✔';
+    position: absolute;
+    right: 14px; bottom: 20px;
+    z-index: 1;
+    color: white;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color:#6aa84f;
+    position: absolute;
+    right:10px; bottom: 21px;
+}
+
+footer {
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 200;
+    text-align: center;
+    color: gray;
+}

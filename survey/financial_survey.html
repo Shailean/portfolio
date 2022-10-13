@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Questionnaire</title>
+</head>
+<body>
+    <h1 id="title">Financial Questionnaire</h1>
+    <p id="description">
+        This Financial Questionnaire aims to assess the types of financial resources you already have available to you and where there might be resource gaps.
+    </p>
+    <form action="#" id="survey-form">
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="First" required>
+        <label for="last-name" id="last-name-label"></label>
+        <input type="text" id="last-name" placeholder="Last" required>
+        <br>
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" placeholder="name@email.com" required>
+        <br>
+
+        <!--FORMAT PHONE NUMBER: How to add brackets and dash automatically for the user?-->
+        <label for="phone" id="phone-label">Phone number:</label>
+        <input type="phone" id="phone" placeholder="000-000-0000" mpattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12">
+        
+        <br><br>
+        <p>Please select your age from the dropdown list:</p>
+        <select name="age-range" id="dropdown">
+            <option value="18-24">18-24 years old</option>
+            <option value="25-34">25-34 years old</option>
+            <option value="35-44">35-44 years old</option>
+            <option value="45-54">45-54 years old</option>
+            <option value="+55">over 55 years old</option></select>
+        <br><br>
+        <p id="occupation">What is your employment status?</p>
+        <label for="student">
+            <input type="radio" name="Employment" id="student" value="student">Student</label>
+        <br>
+        <label for="employed-full">
+            <input type="radio" name="Employment" id="employed-full" value="employed-full">Employed Full Time</label>
+        <br>
+        <label for="employed-part">
+            <input type="radio" name="Employment" id="employed-part" value="employed-part">Employed Part Time</label>
+        <br>
+        <label for="unemployed">
+            <input type="radio" name="Employment" id="unemployed" value="unemployed">Unemployed</label>
+        <br><br>
+
+        <p id="banking-products">Do you have any of the following bank products? (Select all that apply)
+        </p>
+        <label for="checking">
+            <input type="checkbox" name="bank-products" id="checking" value="checking">Checking account</label>
+        <br>
+        <label for="savings">
+            <input type="checkbox" name="bank-products" id="savings" value="savings">Savings account</label>
+        <br>
+        <label for="401k">
+            <input type="checkbox" name="bank-products" id="401k" value="401k">401(k)</label>
+        <br>
+        <label for="ira">
+            <input type="checkbox" name="bank-products" id="ira" value="ira">IRA</label>
+        <br>
+        <label for="debit">
+            <input type="checkbox" name="bank-products" id="debit" value="debit">Debit card</label>
+        <br>
+        <label for="credit">
+            <input type="checkbox" name="bank-products" id="credit" value="credit">Credit card</label>
+        <br>
+        <label for="student-loan">
+            <input type="checkbox" name="bank-products" id="student-loan" value="student-loan">Student loan</label>
+        <br>
+        <label for="auto-loan">
+            <input type="checkbox" name="bank-products" id="auto-loan" value="auto-loan">Auto loan</label>
+        <br>
+        <label for="mortgage">
+            <input type="checkbox" name="bank-products" id="mortgage" value="mortgage">Mortgage</label>
+        <br>
+        <label for="personal-loan">
+            <input type="checkbox" name="bank-products" id="personal-loan" value="personal-loan">Personal loan</label>
+        <br>
+        <label for="payday-loan">
+            <input type="checkbox" name="bank-products" id="payday-loan" value="payday-loan">Payday loan</label>
+        <br><br>
+        <label for="comments">Additional comments:</label>
+        <br><br>
+        <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Please let us know any additional information that you think is relevant to better assist you with your financial needs."></textarea>
+        <br><br>
+        <input type="checkbox" name="terms" id="terms-conditions" value="1" required>
+        <label for="terms-conditions">I understand that my responses to these questions are optional and used solely to assist my Financial Coach in recommending suitable financial services</label>
+           
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

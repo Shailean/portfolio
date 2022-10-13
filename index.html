@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shailean's Portfolio</title>
+
+  <!--Normalize-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!--Primary font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!--Secondary font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <!--insert logo-->
+    <div class="logo">
+      <img src="" alt="">
+    </div>
+
+    <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+        <li class="nav-item"><a href="#work" class="nav-link">PROJECTS</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">ABOUT ME</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!--Introduction-->
+  <section class="intro" id="home">
+    <h1 class="section-title section-title--intro">
+      Hi, I'm <strong>Shailean</strong><span>(shall-een)</span>
+    </h1>
+
+    <p class="section-subtitle section-subtitle--intro">front-end dev</p>
+    <img src="profile-pic.jpeg" alt="a picture of Shailean smiling" class="intro-img">
+  </section>
+  
+  <!--Projects-->
+  <section class="projects" id="work">
+    <h2 class="section-title section-title--projects">Projects</h2>
+
+    <div class="portfolio-container">
+
+      <!--project 1-->
+      <div class="portfolio">
+        <a href="article/article.html" target="_blank" class="portfolio-item">
+          <img src="article.png" alt="" class="portfolio-img">
+        </a>
+      </div>
+
+      <!--project 2-->
+      <div class="portfolio">
+        <a href="landing_page/landing_page.html" target="_blank" class="portfolio-item">
+          <img src="landing_page/landingpg.png" alt="" class="portfolio-img">
+        </a>
+      </div>
+
+      <!--project 3-->
+      <div class="portfolio">
+        <a href="survey/financial_survey.html" target="_blank" class="portfolio-item">
+          <img src="survey/finsurvey.png" alt="" class="portfolio-img">
+        </a>
+      </div>
+
+      <!--project 4-->
+      <div class="portfolio">
+        <a href="techdoc/technical_doc.html" target="_blank" class="portfolio-item">
+          <img src="techdoc/techdoc.png" alt="" class="portfolio-img">
+        </a>
+      </div>
+
+      <!--project 5-->
+      <div class="portfolio">
+        <a href="todo_list/todo.html" target="_blank" class="portfolio-item">
+          <img src="todo_list/todo.png" alt="" class="portfolio-img">
+        </a>
+      </div>
+    </div> <!--portfolio-container div-->
+  </section> 
+
+
+  <!--About me-->
+  <section class="about-me" id="about">
+    <h2 class="section-title section-title--about">Get to know me</h2>
+    <p class="section-subtitle section-subtitle--about">Web Developer & UX Designer</p>
+    <img src="about-me.jpeg" alt="a picture of Shailean scrolling on her phone" class="about-me-img">
+
+    <div class="about-me-body">
+      <p>I spent the first 10+ years of my career working at nonprofit organizations with over 6 of those years as a financial literacy educator. Lately, I've developed an interest in how technological interventions can have a beneficial impact on marginalized populations and so I'm looking to transition into tech. I completed a Junior Web Development bootcamp in September 2022. 
+      <br><br>
+      Whether it's helping to brainstorm solutions for improving a client's credit score, providing feedback on a service/product, or debugging some faulty code I am most fulfilled when working in environments where I need to utilize my problem solving skills and break down complex concepts into easily understood terms. 
+      <br><br>
+      I am particularly interested in roles and organizations that are focused on improving the livelihoods of low income and middle income populations, economic empowerment, micro-credit, financial education and inclusion.</p>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <a href="mailto:shailean.hardy@gmail.com" class="footer-link">shailean.hardy@gmail.com</a>
+    <ul class="social-media">
+      <li class="social-media-item">
+        <a href="https://www.linkedin.com/in/shaileanhardy/" target="_blank" class="social-media-link">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="social-media-item">
+        <a href="https://github.com/Shailean" target="_blank" class="social-media-link">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
