@@ -304,6 +304,10 @@ header {
     color: var(--clr-accent);
 }
 
+.portfolio-description {
+    text-align: left;
+    margin-left: 50px;
+}
 
 /* About me */
 
