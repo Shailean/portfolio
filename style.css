@@ -309,11 +309,16 @@ header {
     margin-left: 50px;
 }
 
+.animal-trading-card p {
+    width: 300px;
+}
+
 .detangle-landing-pg {
     margin-top: 40px;
 }
 .detangle-landing-pg p {
     margin: 35px 0px;
+    width: 300px;
 }
 
 /* About me */
