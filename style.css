@@ -309,6 +309,13 @@ header {
     margin-left: 50px;
 }
 
+.detangle-landing-pg {
+    margin-top: 40px;
+}
+.detangle-landing-pg p {
+    margin: 35px 0px;
+}
+
 /* About me */
 
 .about-me {
