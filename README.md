@@ -12,7 +12,7 @@ My portfolio is a work in progress that I will be updating periodically as I com
 
 **Personal Projects**
 
-- **Detangle Your Money**: Website for a financial coaching service. I built this project to practice UI design, content design, and making websites responsive for mobile screens.
+- **[Detangle Your Money](https://github.com/Shailean/detangle-your-money)**: Website for a financial coaching service. I built this project to practice UI design, content design, and making websites responsive for mobile screens.
 
 <br>
 
