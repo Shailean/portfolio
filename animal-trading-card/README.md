@@ -3,7 +3,7 @@ In this project, I had to demonstrate HTML and CSS skills by re-creating a webpa
 
 <br>
 
-![Dragon](/animal-trading-card/first-project-animal-trading-card.png)
+![Dragon](/animal-trading-card/card.png)
 
 <br>
 
