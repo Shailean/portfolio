@@ -151,7 +151,7 @@ header {
 
 .nav-link {
     color: inherit;
-    font-weight: var(--fw-reg);
+    font-weight: var(--fw-bold);
     font-size: var(--fs-h3);
     text-decoration: none;
 }
@@ -264,7 +264,7 @@ header {
 
 }
 
-/* Project */
+/* Projects */
 
 .projects {
     background-color: var(--clr-dark);
@@ -332,6 +332,11 @@ header {
     box-shadow: var(--bs);
 }
 
+.about-me-body {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
 @media (min-width: 600px) {
     .about-me {
         display: grid;
@@ -363,7 +368,6 @@ header {
        z-index: 2;
        margin-top: 3em;
     }
-
 }
 
 /* About me */
