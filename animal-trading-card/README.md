@@ -1,9 +1,9 @@
-![Dragon](/animal-trading-card/first-project-animal-trading-card.png)
-
-<br><br>
-
 # Animal Trading Cards
 In this project, I had to demonstrate HTML and CSS skills by re-creating a webpage from a design prototype.
+
+<br>
+
+![Dragon](/animal-trading-card/first-project-animal-trading-card.png)
 
 <br>
 
