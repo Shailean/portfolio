@@ -1,0 +1,3 @@
+[submodule "detangle-your-money"]
+	path = detangle-your-money
+	url = git@github.com:Shailean/detangle-your-money.git
