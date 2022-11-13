@@ -5,6 +5,15 @@ I graduated from [Generation USA](https://usa.generation.org/)'s Junior Web Deve
 
 I am currently enrolled (as of October 19, 2022) in [Udacity](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044)'s Full Stack Developer bootcamp (as a scholarship recipient sponsored by Cognizant) with a graduation date of March 2023.
 
+## Tech Stack
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- Python
+- Java
+- Spring Boot
+
 ## About My Portfolio
 My portfolio is a work in progress that I will be updating periodically as I complete personal and bootcamp projects.
 
