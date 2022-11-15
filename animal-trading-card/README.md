@@ -2,10 +2,7 @@
 In this project, I had to demonstrate HTML and CSS skills by re-creating a webpage from a design prototype.
 
 <br>
-
-![Dragon](/animal-trading-card/card.png)
-
-<br>
+<img src="/animal-trading-card/card.png" title="Dragon" alt="Dragon" width="250" height=""/>&nbsp;
 
 ## Project Requirements
 1. Customize the starter page with content about the chosen animal
