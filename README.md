@@ -29,5 +29,5 @@ My portfolio is a work in progress that I will be updating periodically as I com
 
 In Udacity's Full Stack Developer bootcamp I completed the following projects so far:
 
-- **[Animal Trading Card](https://github.com/Shailean/portfolio/tree/main/animal-trading-card)**: using HTML, CSS, and a design prototype I was asked to show understanding of how to utilize classes in HTML in order to apply styling to elements in CSS. This project showcases my ability to utilize proper syntax to create a visually appealing design.
+- **[Animal Trading Card](https://github.com/Shailean/portfolio/tree/main/school-projects/1-animal-trading-card)**: using HTML, CSS, and a design prototype I was asked to show understanding of how to utilize classes in HTML in order to apply styling to elements in CSS. This project showcases my ability to utilize proper syntax to create a visually appealing design.
 
