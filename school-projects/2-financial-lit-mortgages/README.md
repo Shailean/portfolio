@@ -1,5 +1,5 @@
 # Financial Literacy Game
-In this project, I had to create a game to show proficiency in Python conditionals. 
+In this project, I had to create a game to show proficiency in Python conditionals. The game explains the mortgage application process that banks use to assess an individual's application for a home loan.
    
 <br>
      
