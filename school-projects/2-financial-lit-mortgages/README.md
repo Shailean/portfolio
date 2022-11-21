@@ -1,5 +1,5 @@
 # Financial Literacy Game
-In this project, I had to create a game to show proficieny in Python conditionals. 
+In this project, I had to create a game to show proficiency in Python conditionals. 
    
 <br>
      
