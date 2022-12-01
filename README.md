@@ -1,5 +1,5 @@
 # About Me
-I spent the first 10+ years of my career working at nonprofit organizations with over 6 of those years as a financial literacy educator. Lately, I've developed an interest in how technological interventions can have a beneficial impact on marginalized populations and so I'm looking to transition into tech. I have been taking courses on freeCodeCamp, Udemy, and Codecademy to build my skill set in Web Development and UX Design. 
+I spent the first 10+ years of my career working at nonprofit organizations with over 6 of those years as a financial literacy educator. Lately, I've developed an interest in how technological interventions can have a beneficial impact on marginalized populations and so I'm looking to incorporate tech into my personal finance experience. I have been taking courses on freeCodeCamp, Udemy, and Codecademy to build my skill set in Web Development and UX Design. 
 
 I graduated from [Generation USA](https://usa.generation.org/)'s Junior Web Developer bootcamp in September 2022.
 
