@@ -10,6 +10,3 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
-
-const projects = document.querySelector('div');
-//projects.style.border = "1px solid white"; 
