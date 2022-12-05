@@ -302,6 +302,9 @@ header {
     overflow: hidden; 
 }
 
+.detangle-landing-pg, .game {
+    margin-top: 2em;
+}
 
 /* ABOUT ME */
 
